@@ -1,0 +1,16 @@
+.intro-frame{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background-color: #f0f0f0;
+    transform-origin: bottom right;
+    transform: skewX(-30deg);
+}
+
+.image-frame{
+    width: 50%;
+    float: right; /* or left */
+    background-color: #fff;
+}
