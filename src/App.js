@@ -3,6 +3,7 @@ import {RavePlatform} from "./views/RavePlatform";
 import {Navbar} from "./views/NavBar";
 import {HomePage} from "./views/HomePage";
 import {AboutUs} from "./views/About";
+import {DonationProcess} from "./views/DonationProcess";
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
             <Route path="/navbar" element={<Navbar />} />
             <Route path="/home" element={<HomePage />} />
             <Route path="/about" element={<AboutUs />} />
+            <Route path="/donate-process" element={<DonationProcess />} />
           </Routes>
         </BrowserRouter>
       </>
