@@ -7,13 +7,13 @@ export const HomePage = () => {
         <div className="home-page-main-frame">
             <div className="intro-frame">
                 <div className="text-box">
-                    <h1>Welcome to RAGE - Rights and Aid Group for Education</h1>
+                    <h1>Welcome to rage - Rights and Aid Group for Education</h1>
                     <p>At RAGE, we're dedicated to providing quality education to underprivileged children.
                         Through scholarships, tutoring, and community partnerships,
                         we empower kids to build brighter futures. Join us in making a difference today.</p>
                 </div>
                 <div className="text-button">
-                    <button className="sign-up-button-big"></button>
+                    <button className="sign-up-button-big"> sign up </button>
                 </div>
             </div>
 
