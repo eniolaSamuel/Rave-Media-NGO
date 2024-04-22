@@ -1,14 +1,15 @@
 import '../styles/NavBar.css'
-import raveLogo from "";
+import raveLogo from "../assets/image/svg/raveLogo.svg";
 import React from "react";
-import {useNavigate} from "react-router-dom";
+
 
 export const Navbar = () => {
-    const navigate = useNavigate();
 
-    const handleButtonClick =()=>{
-        navigate("")
-    }
+    let links = [
+        { name: "Home", link: "/" },
+        { name: "About", link: "/" },
+        { name: "Donate", link: "/" },
+    ];
 
     return (
             <div className="navigation-main-frame">
@@ -17,14 +18,16 @@ export const Navbar = () => {
                 </div>
                 <nav className="navigation-frame">
                     <div className="link-frame">
-                        <ul className="link-bars">
-                            <li><a href="">Home</a></li>
-                            <li><a href="">About</a></li>
-                            <li><a href="">Donate</a></li>
+                        <ul className="nav-link">
+                            {links.map((link) => (
+                                <li key={link.name} className="nav-link-detail">
+                                    <a href={link.link}>{link.name}</a>
+                                </li>
+                            ))}
                         </ul>
                     </div>
                     <div>
-                        <button id="signUp-button" onClick={handleButtonClick}>Sign Up</button>
+                        <button id="signUp-button" >Sign Up</button>
                     </div>
                 </nav>
             </div>

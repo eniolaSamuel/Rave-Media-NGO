@@ -17,39 +17,47 @@
 .navigation-frame{
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
-    margin-left: 230px;
+    margin-left: 300px;
 }
-.link-frame {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 15px;
-    margin-bottom: 5px;
+
+.nav-link {
     list-style: none;
-    text-decoration: none;
-    color: #FAE0D8;
-    text-decoration-color: #FAE0D8;
-    margin-right: 150px;
-}
-.link-frame a{
-    color: #3B3086;
-    text-decoration-style: solid;
-    font-size: medium;
-    font-weight: normal;
-    text-decoration: none;
-    justify-content: space-between;
-    margin-left: 50px;
+    padding: 15px;
+
 }
 
-.link-bars a:hover{
-    box-shadow: inset 100px 0 0 0 #FFC2C0;
-    color: white;
+.nav-link-detail {
+    display: inline-block;
+    margin-right: 30px; /* Adjust as needed */
+    margin-left: 20px;
 }
 
-#Register-button{
+.nav-link-detail a {
+    position: relative; /* Required for absolute positioning */
+    text-decoration: none;
+    color: #c5c3c3; /* Adjust color as needed */
+    font-size: 20px;
+}
+
+.nav-link-detail a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -15px; /* Adjust to position the underline */
+    width: 100%;
+    border-bottom: 1px solid transparent; /* Adjust thickness and color */
+    transition: border-bottom-color 0.3s ease; /* Optional: add transition effect */
+}
+
+.nav-link-detail a:hover::after {
+    border-bottom-color: #9C9CA4;;
+}
+
+
+#signUp-button{
     /*background-color: rgba(242, 242, 248, 0.82);*/
-    color:#FFC2C0;
-    border-color: #FAE0D8;
+    color:#ffff;
+    border-color: #ffff;
     transition: background-color;
     transition-duration: 200ms;
     cursor: pointer;
@@ -58,13 +66,15 @@
     width: 200px;
     left: 181px;
     margin-top: 15px;
-    margin-left: 175px;
+    margin-left: 305px;
     border-radius: 10px;
     padding: 8px 16px 8px 16px;
-    font-weight: bolder;
     font-size: large;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
-#Register-button:hover{
+#signUp-button:hover{
     /*box-shadow: inset 200px 0 0 0 #368db2;*/
-    background-color: #FAE0D8;
+    background-color: #3B3086;
 }
