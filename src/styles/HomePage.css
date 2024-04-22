@@ -40,6 +40,12 @@
     font-family: "Varela Round", sans-serif;
 }
 
+.text-button{
+    display: flex;
+    width: 450px;
+    justify-content: space-between;
+}
+
 .sign-up-button-big{
     /*background-color: rgba(242, 242, 248, 0.82);*/
     color:#000000;
@@ -58,6 +64,14 @@
     font-family: "Varela Round", sans-serif;
     font-weight: 400;
     font-style: normal;
+    display: flex;
+}
+
+.sign-up-button-big img {
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+    margin-top: 5px;
 }
 
 .sign-up-button-big:hover{
