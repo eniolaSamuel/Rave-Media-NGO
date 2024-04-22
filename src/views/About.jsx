@@ -6,7 +6,7 @@ import EducationIcon from "../assets/icons/svg/education-icon.svg"
 import EquityIcon from "../assets/icons/svg/equity-icon.svg"
 import EmpowermentIcon from "../assets/icons/svg/empowerment-icon.svg"
 import CollaborationIcon from "../assets/icons/svg/collaboration-icon.svg"
-import "../styles/AbouUs.css"
+import "../styles/About.css"
 
 
 export const AboutUs = () => {
