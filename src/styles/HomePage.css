@@ -1,6 +1,6 @@
 .home-page-main-frame{
     width: 100%;
-    height: 600px;
+    height: 650px;
     display: flex;
     overflow:hidden;
 
@@ -8,7 +8,7 @@
 
 .intro-frame{
     padding: 70px;
-    background-color: #d4deff;
+    background-color: #D7D7DF;
     width: 70%;
 }
 

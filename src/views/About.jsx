@@ -11,7 +11,7 @@ import "../styles/About.css"
 
 export const AboutUs = () => {
     return(
-        <div className="about-us-frame">
+        <div className="about-us-frame" id="about">
                 <div className="about-us-sub-frame-content">
                     <div className="about-content">
                         <img src={AboutContent} alt={AboutContent}/>

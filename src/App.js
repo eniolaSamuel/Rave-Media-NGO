@@ -4,6 +4,7 @@ import {Navbar} from "./views/NavBar";
 import {HomePage} from "./views/HomePage";
 import {AboutUs} from "./views/About";
 import {DonationProcess} from "./views/DonationProcess";
+import VolunteerSignUp from "./views/VolunteerSignUp";
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
             <Route path="/home" element={<HomePage />} />
             <Route path="/about" element={<AboutUs />} />
             <Route path="/donate-process" element={<DonationProcess />} />
+            <Route path="/volunteer-sign-up" element={<VolunteerSignUp />} />
           </Routes>
         </BrowserRouter>
       </>

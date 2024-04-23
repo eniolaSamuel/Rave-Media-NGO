@@ -1,12 +1,14 @@
 .about-us-frame{
     width: 100%;
     height: 1650px;
+
 }
 .about-content, .mission-content, .vision-content{
     display: flex;
     justify-content: space-evenly;
-    padding-top: 50px;
+    padding-top: 150px;
     background-color: #fbf1ee;
+    margin-top: -50px;
 }
 
 .about-content img{
