@@ -1,24 +1,22 @@
-.volunteer-container {
+.donation-container {
     width: 100%;
-    padding-top: 0px ;
+    padding-top: 20px ;
     padding-bottom: 20px;
     background-color: #D7D7DF;
     overflow-y: hidden;
 }
-
-.volunteer-sub-container{
+.donation-sub-container{
     width: 70%;
     height: 600px;
     display: flex;
     justify-content: space-evenly;
-    margin-top: 20px;
     margin-left: 200px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     background-color: #e3e3e5;
 }
 
-.volunteer-image{
+.donation-image{
     justify-content: space-evenly;
     border-radius: 8px;
     margin: 50px auto;
@@ -27,15 +25,14 @@
 
 }
 
-.volunteer-image img{
+.donation-image img{
     max-width: 1500px;
     height: 520px;
 
 
 }
-
-.volunteer-form{
-    max-width: 1500px;
+.donation-form {
+    max-width: 500px;
     height: 525px;
     margin: 50px auto;
     padding: 20px;
@@ -43,27 +40,27 @@
     text-align: center;
 }
 
-.volunteer-form h1 {
+.donation-form h1 {
     width: 400px;
-    height: 34px;
+    height: 44px;
     font-weight: 600;
     line-height: 70px;
     letter-spacing: 0em;
     text-align: left;
     font-family: "Varela Round", sans-serif;
     font-size: 25px;
-    margin-top: -5px;
+    margin-top: -10px;
     margin-bottom: 35px;
 }
-.volunteer-form form {
+
+.donation-form form {
     display: flex;
     flex-direction: column;
     margin-top: 10px;
-
 }
 
-.volunteer-form label {
-    margin-bottom: 15px;
+.donation-form label {
+    margin-bottom: 20px;
     height: 14px;
     font-size: 20px;
     font-weight: 400;
@@ -74,26 +71,34 @@
     font-family: "Varela Round", sans-serif;
 }
 
-.volunteer-form input, .volunteer-form textarea {
+.donation-form input[type="number"]{
     padding: 8px;
-    margin-bottom: 20px;
+    margin-bottom: -30px;
     border: 1px solid #ccc;
     border-radius: 4px;
     color: rgba(0, 0, 0, 0.55);
     font-family: "Varela Round", sans-serif;
 }
 
-.volunteer-form button {
-    color:#000000;
+
+
+.donation-form select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: rgba(0, 0, 0, 0.55);
+    font-family: "Varela Round", sans-serif;
+    margin-top: 20px;
+}
+
+.donation-form button {
+    color: #000000;
     border-color: #000000;
-    transition: background-color;
-    transition-duration: 200ms;
+    transition: background-color 200ms;
     cursor: pointer;
     background: transparent;
     height: 50px;
     width: 210px;
-    left: 181px;
-    margin-top: 10px;
     justify-content: center;
     border-radius: 10px;
     padding: 8px 16px 8px 16px;
@@ -106,7 +111,7 @@
     margin-left: 100px;
 }
 
-.volunteer-form button:hover {
+.donation-form button:hover {
     background-color: black;
-    color: #ffff;
+    color: #ffffff;
 }

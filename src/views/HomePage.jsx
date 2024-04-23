@@ -8,8 +8,12 @@ import {useNavigate} from "react-router-dom";
 export const HomePage = () => {
     const navigate = useNavigate();
 
-    const handleButtonClick =()=>{
+    const handleSignUpClick =()=>{
         navigate("/volunteer-sign-up")
+    }
+
+    const handleDonateClick = () =>{
+        navigate("/donation-page")
     }
     return(
         <div className="home-page-main-frame" id="home">
@@ -21,10 +25,10 @@ export const HomePage = () => {
                         we empower kids to build brighter futures. Join us in making a difference today.</p>
                 </div>
                 <div className="text-button">
-                    <button className="sign-up-button-big"> donate now
+                    <button className="sign-up-button-big" onClick={handleDonateClick}> donate now
                         <img src={DonationBox} alt={DonationBox}/>
                     </button>
-                    <button className="sign-up-button-big" onClick={handleButtonClick}> be a volunteer
+                    <button className="sign-up-button-big" onClick={handleSignUpClick}> be a volunteer
                         <img src={VolunteerHands} alt={VolunteerHands}/>
                     </button>
                 </div>

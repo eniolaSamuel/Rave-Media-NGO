@@ -14,7 +14,7 @@ export const Navbar = () => {
     let links = [
         { name: "Home", link: "/home" },
         { name: "About", link: "/about" },
-        { name: "Donate", link: "/" },
+        { name: "Donate", link: "/donation-page" },
     ];
 
     return (
@@ -32,7 +32,7 @@ export const Navbar = () => {
                                 <a href="#about">About</a>
                             </li>
                             <li className="nav-link-detail">
-                                <a href="#donate">Donate</a>
+                                <a href="/donation-page">Donate</a>
                             </li>
                         </ul>
                     </div>
