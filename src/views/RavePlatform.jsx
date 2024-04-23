@@ -2,6 +2,7 @@ import {Navbar} from "./NavBar";
 import {HomePage} from "./HomePage";
 import {AboutUs} from "./About";
 import {DonationProcess} from "./DonationProcess";
+import Footer from "./Footer";
 
 export const RavePlatform = () => {
     return(
@@ -10,6 +11,7 @@ export const RavePlatform = () => {
             <HomePage />
             <DonationProcess />
             <AboutUs />
+            <Footer />
         </div>
     )
 }

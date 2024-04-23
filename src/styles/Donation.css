@@ -7,13 +7,14 @@
 }
 .donation-sub-container{
     width: 70%;
-    height: 600px;
+    height: 607px;
     display: flex;
     justify-content: space-evenly;
     margin-left: 200px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     background-color: #e3e3e5;
+
 }
 
 .donation-image{
@@ -60,7 +61,7 @@
 }
 
 .donation-form label {
-    margin-bottom: 20px;
+    margin-top: -20px;
     height: 14px;
     font-size: 20px;
     font-weight: 400;
@@ -72,13 +73,27 @@
 }
 
 .donation-form input[type="number"]{
-    padding: 8px;
-    margin-bottom: -30px;
+    margin-top: 30px;
     border: 1px solid #ccc;
-    border-radius: 4px;
     color: rgba(0, 0, 0, 0.55);
     font-family: "Varela Round", sans-serif;
+    height: 30px;
+    width: 270px;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 8px 16px 8px 16px;
+    font-size: larger;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
 }
+
+.donation-form input[type="radio"] {
+    width: 20px; /* Set width of checkboxes */
+    height: 20px; /* Set height of checkboxes */
+    margin-left: 290px;
+}
+
 
 
 
@@ -89,6 +104,9 @@
     color: rgba(0, 0, 0, 0.55);
     font-family: "Varela Round", sans-serif;
     margin-top: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+    color: #333333;
 }
 
 .donation-form button {
@@ -107,11 +125,13 @@
     font-weight: 400;
     font-style: normal;
     display: flex;
-    margin-bottom: 30px;
-    margin-left: 100px;
+    margin-top: 30px;
+    margin-left: 50px;
 }
 
 .donation-form button:hover {
     background-color: black;
     color: #ffffff;
 }
+
+

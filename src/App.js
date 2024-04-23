@@ -6,6 +6,7 @@ import {AboutUs} from "./views/About";
 import {DonationProcess} from "./views/DonationProcess";
 import VolunteerSignUp from "./views/VolunteerSignUp";
 import DonationPage from "./views/Donation";
+import Footer from "./views/Footer";
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
             <Route path="/donate-process" element={<DonationProcess />} />
             <Route path="/volunteer-sign-up" element={<VolunteerSignUp />} />
             <Route path="/donation-page" element={<DonationPage />} />
+            <Route path="/footer" element={<Footer />} />
           </Routes>
         </BrowserRouter>
       </>
